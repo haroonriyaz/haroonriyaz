@@ -1,0 +1,91 @@
+.p{
+    height: max-content;width: 300px;
+}
+.img{
+    width: 300px; height: 60px;
+    border-radius: 50px;
+}
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .service-box {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .service-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .service-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-text h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .no-card-2 {
+    padding-right: 345px;
+    background: url('https://mahircompany.com/images/blue/welcome/megaphone.webp') right center no-repeat, url('https://mahircompany.com/images/blue/welcome/bg-megaphone.svg') right top / contain no-repeat;
+    background-color: #e4e6e8;
+}
+  .service-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .new-tag {
+    background-color: blue;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  .custom-logo-size{
+    width:100px;
+    height: 70px;
+  }
+  .bg-primary-gray{
+    background-color: rgb(226, 230, 236) !important;
+  }
+  .select-option-location{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding:5px;
+    
+  }
+  .select-option-location[name="location"]{
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .select-option-location option[value="lahore"]{
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .coumstwidth{
+    width: 57.2 !important;
+  }
+  .tb{
+    background-color: rgb(1, 17, 17);
+    color: aliceblue;
+    height: 100px;
+    width: 50vh;
+    border: 5px solid rgb(167, 10, 10);
+    
+  }
